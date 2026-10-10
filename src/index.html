@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button class="Add">+ New</button>
+
+    <select class="searchStatus">
+    <option value="all">All Status</option>
+    <option value="active">Active</option>
+    <option value="inactive">Inactive</option>
+    </select>
+
+    <select class="searchCity">
+    <option value="all">All City</option>
+    <option value="Dushanbe">Dushanbe</option>
+    <option value="Kulob">Kulob</option>
+    </select>
+    
+    <input type="text" class="search" placeholder="Search...">
+
+    <br><br>
+    <dialog class="dialogAdd">
+    <input class="addFoto" type="text" placeholder="Foto...">
+    <input class="addName" type="text" placeholder="Name...">
+    <input class="addCity" type="text" placeholder="City...">
+    <input class="addNumber" type="number" placeholder="Number...">
+    <select class="addStatus">
+   <option value="active">Active</option>
+   <option value="inactive">Inactive</option>
+    </select>
+    <button class="addCancel">Cancel</button>
+    <button class="addSave">Save</button>
+    </dialog>
+
+    <dialog class="dialogEdit">
+    <input class="editFoto" type="text" placeholder="Foto...">
+    <input class="editName" type="text" placeholder="Name...">
+    <input class="editCity" type="text" placeholder="City...">
+    <input class="editNumber" type="text" placeholder="Number...">
+    <select class="editStatus">
+   <option value="active">Active</option>
+   <option value="inactive">Inactive</option>
+    </select>
+    <button class="editCancel">Cancel</button>
+    <button class="editSave">Save</button>
+    </dialog>
+
+    <table>
+        <thead class="thead">
+        <tr>
+        <th class="Name">Name</th>
+        <th class="City">City</th>
+        <th class="Status">Status</th>
+        <th class="Phone">Phone</th>
+        <th Actions>Actions</th>
+        </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+</body>
+<script src="./main.js"></script>
+</html>

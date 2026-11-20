@@ -1,0 +1,148 @@
+.container {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.heroCard {
+    width: 90%;
+    max-width: 1200px;
+    height: 550px;
+    background-color: #f4fbf8;
+    border-radius: 40px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Қисми чап */
+.leftSide {
+    width: 50%;
+    padding: 70px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.5;
+    margin-bottom: 35px;
+    max-width: 400px;
+}
+
+.videoBox {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.playBtn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    color: #24AB70;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoText {
+    font-weight: 600;
+    color: #222222;
+    font-size: 16px;
+}
+
+/* Қисми рост (Сурат) */
+.rightSide {
+    width: 50%;
+    height: 100%;
+}
+
+.heroImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Панели сафеди поён */
+.searchBar {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 82%;
+    height: 85px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.searchItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 18px;
+    color: #24AB70;
+}
+
+.itemTitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 4px;
+}
+
+.itemSub {
+    font-size: 13px;
+    color: #777777;
+}
+
+.line {
+    width: 1px;
+    height: 40px;
+    background-color: #e5e5e5;
+}
+
+.searchBtn {
+    height: 100%;
+    padding: 0 40px;
+    border-radius: 50px;
+    background-color: #24AB70;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchBtn:hover {
+    background-color: #1e925f;
+}

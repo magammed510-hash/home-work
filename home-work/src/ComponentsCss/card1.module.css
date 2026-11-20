@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.div {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    height: 50px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+}
+
+.box button {
+    border: none;
+    background-color: whitesmoke;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #24AB70;
+    color: white;
+    border: none;
+}
